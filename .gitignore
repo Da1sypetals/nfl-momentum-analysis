@@ -1,0 +1,22 @@
+# Python 缓存
+__pycache__/
+*.py[cod]
+*.nbc
+*.nbi
+
+# 虚拟环境
+.venv/
+venv/
+
+# 下载临时文件
+*.part
+
+# 生成的数据与结果（可用脚本重新生成）
+data/raw/*.csv.gz
+data/processed/*.parquet
+task01_good_play_streak/outputs/
+task02_coin_model/outputs/
+task03_behavior_change/outputs/
+
+# 系统文件
+.DS_Store
